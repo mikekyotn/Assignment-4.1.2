@@ -44,6 +44,7 @@
             button13 = new Button();
             button14 = new Button();
             button15 = new Button();
+            button16 = new Button();
             SuspendLayout();
             // 
             // txtBoxWindow
@@ -206,11 +207,22 @@
             button15.UseVisualStyleBackColor = true;
             button15.Click += operation_Click;
             // 
+            // button16
+            // 
+            button16.Location = new Point(228, 451);
+            button16.Name = "button16";
+            button16.Size = new Size(73, 74);
+            button16.TabIndex = 16;
+            button16.Text = "=";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += operation_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(440, 590);
+            Controls.Add(button16);
             Controls.Add(button15);
             Controls.Add(button14);
             Controls.Add(button13);
@@ -251,5 +263,6 @@
         private Button button13;
         private Button button14;
         private Button button15;
+        private Button button16;
     }
 }
